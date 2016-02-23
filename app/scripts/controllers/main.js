@@ -13,6 +13,7 @@ angular.module('mytodoApp')
     var todosInStore = localStorageService.get('todos');
 
     $scope.todos = todosInStore || [];
+//    $scope.todos = todosInStore || [];
 
     $scope.$watch('todos', function () {
       localStorageService.set('todos', $scope.todos);
