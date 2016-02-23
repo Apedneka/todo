@@ -1,3 +1,5 @@
+https://travis-ci.org/Apedneka/todo.svg?branch=master
+
 # mytodo
 
 This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
